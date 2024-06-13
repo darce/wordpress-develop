@@ -40,18 +40,5 @@
             "Composer\\Config::disableProcessTimeout",
             "@php ./vendor/phpunit/phpunit/phpunit"
         ]
-    },
-    "autoload": {
-        "psr-4": {
-            "Img2alt_Ai_Prototype\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Img2alt_Ai_Prototype\\Tests\\": "src/wp-content/plugins/img2alt-ai-prototype/tests/"
-        },
-        "files": [
-            "vendor/yoast/phpunit-polyfills/phpunitpolyfills-autoload.php"
-        ]
     }
 }
